@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34E2203B1E6BC8A000CA34CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E2203A1E6BC8A000CA34CA /* Foundation.framework */; };
+		34E220451E6BC8A000CA34CA /* MakeQQFunAgain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34E220441E6BC8A000CA34CA /* MakeQQFunAgain.mm */; };
+		34E220501E6BC8B100CA34CA /* Cycript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E2204F1E6BC8B100CA34CA /* Cycript.framework */; };
+		34E220521E6BC8C200CA34CA /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E220511E6BC8C200CA34CA /* libstdc++.6.0.9.tbd */; };
+		34E220541E6BC8D100CA34CA /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E220531E6BC8D100CA34CA /* JavaScriptCore.framework */; };
+		34E220591E6BC92E00CA34CA /* XRKQQInfos.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E220551E6BC92E00CA34CA /* XRKQQInfos.h */; };
+		34E2205A1E6BC92E00CA34CA /* XRKQQInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E220561E6BC92E00CA34CA /* XRKQQInfos.m */; };
+		34E2205B1E6BC92E00CA34CA /* XRKSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E220571E6BC92E00CA34CA /* XRKSettingsViewController.h */; };
+		34E2205C1E6BC92E00CA34CA /* XRKSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E220581E6BC92E00CA34CA /* XRKSettingsViewController.m */; };
+		34E2205E1E6BC95000CA34CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E2205D1E6BC95000CA34CA /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34E220371E6BC8A000CA34CA /* MakeQQFunAgain.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = MakeQQFunAgain.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E2203A1E6BC8A000CA34CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34E2203F1E6BC8A000CA34CA /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		34E220401E6BC8A000CA34CA /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		34E220421E6BC8A000CA34CA /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		34E220431E6BC8A000CA34CA /* MakeQQFunAgain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MakeQQFunAgain-Prefix.pch"; sourceTree = "<group>"; };
+		34E220441E6BC8A000CA34CA /* MakeQQFunAgain.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MakeQQFunAgain.mm; sourceTree = "<group>"; };
+		34E220491E6BC8A000CA34CA /* MakeQQFunAgain.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MakeQQFunAgain.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/MakeQQFunAgain.plist; sourceTree = "<group>"; };
+		34E2204F1E6BC8B100CA34CA /* Cycript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cycript.framework; sourceTree = "<group>"; };
+		34E220511E6BC8C200CA34CA /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		34E220531E6BC8D100CA34CA /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		34E220551E6BC92E00CA34CA /* XRKQQInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRKQQInfos.h; sourceTree = "<group>"; };
+		34E220561E6BC92E00CA34CA /* XRKQQInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRKQQInfos.m; sourceTree = "<group>"; };
+		34E220571E6BC92E00CA34CA /* XRKSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRKSettingsViewController.h; sourceTree = "<group>"; };
+		34E220581E6BC92E00CA34CA /* XRKSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRKSettingsViewController.m; sourceTree = "<group>"; };
+		34E2205D1E6BC95000CA34CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34E220331E6BC8A000CA34CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E2205E1E6BC95000CA34CA /* UIKit.framework in Frameworks */,
+				34E220541E6BC8D100CA34CA /* JavaScriptCore.framework in Frameworks */,
+				34E220521E6BC8C200CA34CA /* libstdc++.6.0.9.tbd in Frameworks */,
+				34E2203B1E6BC8A000CA34CA /* Foundation.framework in Frameworks */,
+				34E220501E6BC8B100CA34CA /* Cycript.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E2202D1E6BC8A000CA34CA = {
+			isa = PBXGroup;
+			children = (
+				34E2203C1E6BC8A000CA34CA /* MakeQQFunAgain */,
+				34E220391E6BC8A000CA34CA /* Frameworks */,
+				34E220381E6BC8A000CA34CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34E220381E6BC8A000CA34CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34E220371E6BC8A000CA34CA /* MakeQQFunAgain.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34E220391E6BC8A000CA34CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34E2205D1E6BC95000CA34CA /* UIKit.framework */,
+				34E220531E6BC8D100CA34CA /* JavaScriptCore.framework */,
+				34E220511E6BC8C200CA34CA /* libstdc++.6.0.9.tbd */,
+				34E2203A1E6BC8A000CA34CA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34E2203C1E6BC8A000CA34CA /* MakeQQFunAgain */ = {
+			isa = PBXGroup;
+			children = (
+				34E220441E6BC8A000CA34CA /* MakeQQFunAgain.mm */,
+				34E220551E6BC92E00CA34CA /* XRKQQInfos.h */,
+				34E220561E6BC92E00CA34CA /* XRKQQInfos.m */,
+				34E220571E6BC92E00CA34CA /* XRKSettingsViewController.h */,
+				34E220581E6BC92E00CA34CA /* XRKSettingsViewController.m */,
+				34E2203D1E6BC8A000CA34CA /* Package */,
+				34E220411E6BC8A000CA34CA /* Supporting Files */,
+			);
+			path = MakeQQFunAgain;
+			sourceTree = "<group>";
+		};
+		34E2203D1E6BC8A000CA34CA /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				34E2203E1E6BC8A000CA34CA /* DEBIAN */,
+				34E220461E6BC8A000CA34CA /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		34E2203E1E6BC8A000CA34CA /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				34E2203F1E6BC8A000CA34CA /* control.txt */,
+				34E220401E6BC8A000CA34CA /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		34E220411E6BC8A000CA34CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34E2204F1E6BC8B100CA34CA /* Cycript.framework */,
+				34E220421E6BC8A000CA34CA /* PackageVersion.plist */,
+				34E220431E6BC8A000CA34CA /* MakeQQFunAgain-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34E220461E6BC8A000CA34CA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				34E220471E6BC8A000CA34CA /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		34E220471E6BC8A000CA34CA /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				34E220481E6BC8A000CA34CA /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		34E220481E6BC8A000CA34CA /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				34E220491E6BC8A000CA34CA /* MakeQQFunAgain.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34E220341E6BC8A000CA34CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E2205B1E6BC92E00CA34CA /* XRKSettingsViewController.h in Headers */,
+				34E220591E6BC92E00CA34CA /* XRKQQInfos.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34E220361E6BC8A000CA34CA /* MakeQQFunAgain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E2204C1E6BC8A000CA34CA /* Build configuration list for PBXNativeTarget "MakeQQFunAgain" */;
+			buildPhases = (
+				34E220321E6BC8A000CA34CA /* Sources */,
+				34E220331E6BC8A000CA34CA /* Frameworks */,
+				34E220341E6BC8A000CA34CA /* Headers */,
+				34E220351E6BC8A000CA34CA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeQQFunAgain;
+			productName = MakeQQFunAgain;
+			productReference = 34E220371E6BC8A000CA34CA /* MakeQQFunAgain.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34E2202E1E6BC8A000CA34CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					34E220361E6BC8A000CA34CA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 446D3AAR7E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 34E220311E6BC8A000CA34CA /* Build configuration list for PBXProject "MakeQQFunAgain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34E2202D1E6BC8A000CA34CA;
+			productRefGroup = 34E220381E6BC8A000CA34CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34E220361E6BC8A000CA34CA /* MakeQQFunAgain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34E220351E6BC8A000CA34CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34E220321E6BC8A000CA34CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E220451E6BC8A000CA34CA /* MakeQQFunAgain.mm in Sources */,
+				34E2205A1E6BC92E00CA34CA /* XRKQQInfos.m in Sources */,
+				34E2205C1E6BC92E00CA34CA /* XRKSettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34E2204A1E6BC8A000CA34CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		34E2204B1E6BC8A000CA34CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		34E2204D1E6BC8A000CA34CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = 446D3AAR7E;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MakeQQFunAgain",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakeQQFunAgain/MakeQQFunAgain-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		34E2204E1E6BC8A000CA34CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = 446D3AAR7E;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MakeQQFunAgain",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakeQQFunAgain/MakeQQFunAgain-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34E220311E6BC8A000CA34CA /* Build configuration list for PBXProject "MakeQQFunAgain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E2204A1E6BC8A000CA34CA /* Debug */,
+				34E2204B1E6BC8A000CA34CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E2204C1E6BC8A000CA34CA /* Build configuration list for PBXNativeTarget "MakeQQFunAgain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E2204D1E6BC8A000CA34CA /* Debug */,
+				34E2204E1E6BC8A000CA34CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34E2202E1E6BC8A000CA34CA /* Project object */;
+}
